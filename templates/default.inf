@@ -1,1 +1,17 @@
+[Version]
+Signature="$Windows NT$"
 
+[DefaultInstall]
+CopyFiles=CursorFiles
+AddReg=CursorReg
+
+[DestinationDirs]
+CursorFiles=10,"%SystemRoot%\Cursors\MyCursor"
+
+[CursorFiles]
+arrow.cur
+hand.cur
+
+[CursorReg]
+HKCU,"Control Panel\Cursors","Arrow",0,"%SystemRoot%\Cursors\MyCursor\arrow.cur"
+HKCU,"Control Panel\Cursors","Hand",0,"%SystemRoot%\Cursors\MyCursor\hand.cur"
