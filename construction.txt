@@ -1,0 +1,11 @@
+上传文件
+   ↓
+inputProcessor（自动 / 手动）
+   ↓
+validator（修复 & 标准化）
+   ↓
+infBuilder（生成 .inf）
+   ↓
+packager（复制文件 + 输出目录）
+   ↓
+✅ 可用安装包
