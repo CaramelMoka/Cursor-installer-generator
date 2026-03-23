@@ -1,20 +1,20 @@
-# 🎯 Cursor Theme Generator
+#  Cursor Theme Generator
 
 A lightweight tool that converts uploaded `.cur` / `.ani` files into a Windows cursor theme installer (`.exe`).
 
 ---
 
-## ✨ Features
+##  Features
 
-* 📁 Upload multiple cursor files
-* 🧠 Automatic cursor role mapping (Arrow, IBeam, etc.)
-* 🛠 Auto validation & fallback handling
-* 📦 Generates NSIS installer (`.exe`)
-* ⚡ Applies cursor theme instantly after installation
+*  Upload multiple cursor files
+*  Automatic cursor role mapping (Arrow, IBeam, etc.)
+*  Auto validation & fallback handling
+*  Generates NSIS installer (`.exe`)
+*  Applies cursor theme instantly after installation
 
 ---
 
-## 🏗 How It Works
+##  How It Works
 
 ```text
 Upload files
@@ -34,7 +34,7 @@ Download installer
 
 ---
 
-## 🚀 Usage
+##  Usage
 
 ### 1. Start Server
 
@@ -70,7 +70,7 @@ POST `/generate`
 
 ---
 
-## 📁 Output Structure
+##  Output Structure
 
 ```text
 build/
@@ -127,7 +127,7 @@ C:\Windows\Cursors\
 
 ---
 
-## 🧠 Supported Cursor Roles
+##  Supported Cursor Roles
 
 * Arrow
 * Help
@@ -147,7 +147,7 @@ C:\Windows\Cursors\
 
 ---
 
-## 🛠 Tech Stack
+##  Tech Stack
 
 * Node.js
 * Express
@@ -156,7 +156,7 @@ C:\Windows\Cursors\
 
 ---
 
-## 💡 Future Improvements
+##  Future Improvements
 
 * Cursor preview in browser
 * ZIP export (non-Windows users)
