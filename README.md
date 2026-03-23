@@ -84,7 +84,7 @@ installer/
 
 ---
 
-## ⚠️ Important Notes
+##  Important Notes
 
 ### 1. NSIS Timing Issue
 
@@ -156,16 +156,32 @@ C:\Windows\Cursors\
 
 ---
 
-##  Future Improvements
+##  Roadmap / Future Updates
 
-* Cursor preview in browser
-* ZIP export (non-Windows users)
-* Better filename normalization
-* Full cursor scheme registration
-* Uninstaller support
+This project is still evolving. Planned improvements include:
+
+*  **Visual editor for cursor mapping**
+  Drag & drop files and assign roles (Arrow, IBeam, etc.) directly in the browser
+
+*  **Direct icon editing & preview**
+  Adjust hotspots, preview animations, and tweak cursor behavior before export
+
+*  **More export options**
+  Support for `.zip` packages and alternative installation methods
+
+*  **Better file handling**
+  Automatic filename normalization and smarter mapping detection
+
+*  **Full cursor scheme support**
+  Register themes properly instead of overriding current settings
 
 ---
 
-## 📜 License
+>  The goal is to make cursor theme creation fully visual and accessible — no manual setup or NSIS knowledge required.
+
+
+---
+
+##  License
 
 MIT
